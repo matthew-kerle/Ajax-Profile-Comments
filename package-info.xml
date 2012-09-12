@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+
+	<id>The_Craw:Ajax_Profile_Comments</id>
+	<name>Ajax Profile Comments</name>
+	<version>Beta</version>
+	<type>modification</type>
+	
+	<install for="2.0 - 2.0.99">
+		<readme type="file" parsebbc="true">README.txt</readme>
+		<modification>ajax_profile_comments.xml</modification>
+		<require-file name="ClassProfileComments.php" destination="$sourcedir" />
+		<require-file name="ProfileComments.template.php" destination="$themedir" />
+		<require-file name="profile_comments.js" destination="$themedir/scripts" />
+		<require-file name="comment_delete.png" destination="$imagesdir" />
+		<require-file name="comment_edit.png" destination="$imagesdir" />
+		<require-file name="comment_loader.gif" destination="$imagesdir" />
+		<require-file name="comment_success.png" destination="$imagesdir" />
+		<require-file name="comment_error.png" destination="$imagesdir" />
+		<database type="file">database_install.php</database>
+	</install>
+	
+	<uninstall for="2.0 - 2.0.99">
+		<modification reverse="true">ajax_profile_comments.xml</modification>
+		<remove-file name="$sourcedir/ClassProfileComments.php" />
+		<remove-file name="$themedir/scripts/profile_comments.js" />
+	</uninstall>
+</package-info>
