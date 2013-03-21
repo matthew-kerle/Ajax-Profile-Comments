@@ -5,4 +5,18 @@ As the title suggests, Ajax Profile Comments makes it possible for users to leav
 This mod uses a few icons from the [url=http://led24.de/iconset/]LED icon[/url] set.
 
 [red][b]License:[/b][/red]
-I release this mod and all the code in it to anyone who wants to use it in hopes that it may be found useful. Attribution is not necessary, nor do you need to provide a link back to my website. You are free to use this mod for any purpose, including commercial works, redistribution and derivative works. The only contingency is that the link back to the [url=http://led24.de/iconset/]LED icon set[/url] must remain, as this mod uses two icons from that set. Namely comment_delete.png and comment_edit.png. Both images are found in the root directory of the package. All other images are made by myself and can be used freely. Lastly, this mod comes with no guarantees that it will work well on all servers and configurations, and I will not be held responsible for damages, expenses or problems that may have been caused by the mod's use.
+
+MIT License
+
+Copyright (c) 2013 Scotty Christianson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Additional requirements:
+You are required to keep the link to LED icons site, because the project contains two images from the LED icon set [url=http://led24.de/iconset/]LED icon set[/url].
+Namely comment_delete.png and comment_edit.png. Both images are found in the root directory of the package.
