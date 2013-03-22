@@ -1,10 +1,6 @@
 /**
- * I release this mod and all the code in it to anyone who wants to use it in hopes that it may be found useful.  Attribution is not necessary,
- * nor do you need to provide a link back to my website.  You are free to use this mod for any purpose, including commercial works,
- * redistribution and derivative works.  The only contingency is that the link back to the LED icon set (http://led24.de/iconset/) must remain, as this mod uses two icons
- * from that set. Namely comment_delete.png and comment_edit.png. Both images are found in the root directory of the package. All other
- * images are made by myself and can be used freely. Lastly, this mod comes with no guarantees that it will work well on all servers and
- * configurations, and I will not be held responsible for damages, expenses or problems that may have been caused by the mod's use.
+ * @copyright Scotty Christianson, 2013
+ * I release this code as free software, under the MIT license.
 **/
 var profile_comments = function()
 {
